@@ -9,23 +9,22 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _force = 5f;
     [SerializeField] private float _speed = 5f;
     [SerializeField] private Rigidbody2D _rigidbody2D;
-    
+    [SerializeField] private GroundCheck _groundCheck;
 
-    private void Start()
+    private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-
     }
-
-    private void Update()
+    private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (_groundCheck.isGround)
         {
-            _rigidbody2D.AddForce(Vector2.up * _force);
-            
+            if (Input.GetKey(KeyCode.Space))
+            {
+                _rigidbody2D.AddForce(Vector2.up * _force);
+                Debug.Log("Oprimi la tecla");
+            }
         }
         _rigidbody2D.velocity = Vector2.right * _speed;
-
     }
-
 }
