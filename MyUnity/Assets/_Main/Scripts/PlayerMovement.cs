@@ -21,10 +21,10 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                _rigidbody2D.AddForce(Vector2.up * _jumpForce ,ForceMode2D.Force);
+                _rigidbody2D.AddForce(Vector2.up * _jumpForce ,ForceMode2D.Impulse);
                 Debug.Log("Oprimi la tecla");
             }
         }
-        _rigidbody2D.velocity = Vector2.right * _movementSpeed;
+        _rigidbody2D.velocity = new Vector2(1 * _movementSpeed, _rigidbody2D.velocity.y);
     }
 }
