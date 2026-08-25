@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TrampaMortal : MonoBehaviour
+public class ObstaculoMortal : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
