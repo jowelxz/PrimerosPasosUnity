@@ -1,0 +1,22 @@
+OPERADORES Y CONDICIONALES
+
++ (SUMA)
+- (RESTA)
+* (MULTIPLICACIÓN)
+/ (DIVISIÓN)
+
+
+= (ASIGNAR)
+== (COMPARAR)
+
+! (DIFERENCIA)
+&& (ADN)
+|| (OR)
+
+!=
+-=
++=
+
+
+++ (SUMAR EN 1)
+-- (RESTAR EN 1)
