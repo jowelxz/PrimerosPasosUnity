@@ -2,7 +2,7 @@
 - Project name: MyUnity
 - Unity version: Unity 2023.1.0f1
 - Active game object:
-  - Name: GameManager
+  - Name: Mario
   - Tag: Untagged
-  - Layer: Default
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
