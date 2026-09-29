@@ -19,9 +19,9 @@ public class MovimientoJugador : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
             {
                 _cuerpoRigido2D.AddForce(Vector2.up * _fuerzaSalto, ForceMode2D.Impulse);
-                Debug.Log("Oprimí la tecla");
+                Debug.Log("Oprimï¿½ la tecla");
             }
         }
-        _cuerpoRigido2D.velocity = new Vector2(1 * _velocidadMovimiento, _cuerpoRigido2D.velocity.y);
+        _cuerpoRigido2D.linearVelocity = new Vector2(1 * _velocidadMovimiento, _cuerpoRigido2D.linearVelocity.y);
     }
 }
