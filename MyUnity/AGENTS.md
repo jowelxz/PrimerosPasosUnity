@@ -2,7 +2,7 @@
 - Project name: MyUnity
 - Unity version: Unity 6000.3.24f1
 - Active game object:
-  - Name: Play
+  - Name: UIManager
   - Tag: Untagged
-  - Layer: UI
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

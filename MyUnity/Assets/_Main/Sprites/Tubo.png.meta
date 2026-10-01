@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a252e9772962df84cb9be1b213f8f4b0
+guid: e6e9040fc842a8a438f32b48610f8d8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 325440641546151924
-    second: Credits_0
+      213: -6014808556255549197
+    second: Tubo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Credits_0
+      name: Tubo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 800
-        height: 240
+        x: 66
+        y: 65
+        width: 229
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f765da0a82348400800000000000000
-      internalID: 325440641546151924
+      spriteID: 3f868646c7b178ca0800000000000000
+      internalID: -6014808556255549197
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Credits_0: 325440641546151924
+      Tubo_0: -6014808556255549197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
