@@ -5,27 +5,6 @@ TextureImporter:
   - first:
       213: -1922979618149193216
     second: Exit_0
-  - first:
-      213: -3985504364236080531
-    second: Exit_1
-  - first:
-      213: 2395068827286887499
-    second: Exit_2
-  - first:
-      213: -6183858994869084236
-    second: Exit_3
-  - first:
-      213: -2561830481542524706
-    second: Exit_4
-  - first:
-      213: -7238806407225927975
-    second: Exit_5
-  - first:
-      213: 865396780713809183
-    second: Exit_6
-  - first:
-      213: 2708797687752948938
-    second: Exit_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -150,10 +116,10 @@ TextureImporter:
       name: Exit_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 48
-        width: 408
-        height: 204
+        x: 9
+        y: 18
+        width: 918
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,160 +130,6 @@ TextureImporter:
       bones: []
       spriteID: 00aa6e5c9343055e0800000000000000
       internalID: -1922979618149193216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_1
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 4
-        width: 42
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6a70f695e4a0b8c0800000000000000
-      internalID: -3985504364236080531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_2
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 4
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4cdb07a86efc3120800000000000000
-      internalID: 2395068827286887499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_3
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 4
-        width: 27
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bf59b5f1058e2aa0800000000000000
-      internalID: -6183858994869084236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_4
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 4
-        width: 26
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed0d3ec00cc827cd0800000000000000
-      internalID: -2561830481542524706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_5
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 4
-        width: 25
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d61a7bece79a8b90800000000000000
-      internalID: -7238806407225927975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_6
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 4
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f15963879c1820c00800000000000000
-      internalID: 865396780713809183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exit_7
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 4
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: accf9ea2525979520800000000000000
-      internalID: 2708797687752948938
       vertices: []
       indices: 
       edges: []
@@ -337,13 +149,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Exit_0: -1922979618149193216
-      Exit_1: -3985504364236080531
-      Exit_2: 2395068827286887499
-      Exit_3: -6183858994869084236
-      Exit_4: -2561830481542524706
-      Exit_5: -7238806407225927975
-      Exit_6: 865396780713809183
-      Exit_7: 2708797687752948938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

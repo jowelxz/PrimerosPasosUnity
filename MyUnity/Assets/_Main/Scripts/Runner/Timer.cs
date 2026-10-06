@@ -9,6 +9,17 @@ public class Timer : MonoBehaviour
 
     public bool juegoActivo = true;
 
+    public void RestaurarTiempo(float tiempoGuardado)
+    {
+        tiempo = tiempoGuardado;
+        ActualizarTexto();
+    }
+
+    public float ObtenerTiempo()
+    {
+        return tiempo;
+    }
+
     void Update()
     {
         if (!juegoActivo)
@@ -16,6 +27,11 @@ public class Timer : MonoBehaviour
 
         tiempo += Time.deltaTime;
 
+        ActualizarTexto();
+    }
+
+    private void ActualizarTexto()
+    {
         int minutos = Mathf.FloorToInt(tiempo / 60f);
         int segundos = Mathf.FloorToInt(tiempo % 60f);
 
