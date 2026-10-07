@@ -3,23 +3,21 @@ using UnityEngine;
 public class Heal : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
-    public int _puntosVidaActuales;
-
-    [SerializeField] private UIManager _uiManager;
-
+    [SerializeField] private int cantidadVida = 10;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            if (_puntosVidaActuales < 100)
-            {
-                Debug.Log("El jugador ha recibido vida");
-                _playerStats.RestaurarVida(10);
-                _uiManager.SumarFillAmount();
-            }
-        }
+            _playerStats.RestaurarVida(cantidadVida);
 
-        Destroy(this.gameObject);
-        
+            if (_playerStats._uiManager != null)
+            {
+                _playerStats._uiManager.SetFillAmount(
+                    _playerStats._puntosVidaActuales / 100f
+                );
+            }
+
+            Destroy(gameObject);
+        }
     }
 }

@@ -271,6 +271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 0}
+  panelGanaste: {fileID: 2172598941396314882}
+  panelPerdiste: {fileID: 1659135168464489534}
 --- !u!1 &126192660 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8491295573166192927, guid: 20f02090816158541a265b699b32e521, type: 3}
@@ -1496,6 +1498,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5fb3075e5b4f54e8ff3de67120cb32, type: 3}
+--- !u!1 &1659135168464489534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313337312371783626, guid: bb5fb3075e5b4f54e8ff3de67120cb32, type: 3}
+  m_PrefabInstance: {fileID: 1659135168464489533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2172598941396314881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1601,6 +1608,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35dc5542c60b9eb4d8876264e42b3c59, type: 3}
+--- !u!1 &2172598941396314882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5823811961750318036, guid: 35dc5542c60b9eb4d8876264e42b3c59, type: 3}
+  m_PrefabInstance: {fileID: 2172598941396314881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6663480888698979044 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3467913240413518954, guid: bb5fb3075e5b4f54e8ff3de67120cb32, type: 3}

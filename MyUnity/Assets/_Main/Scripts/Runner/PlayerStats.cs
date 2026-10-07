@@ -16,8 +16,12 @@ public class PlayerStats : MonoBehaviour
     }
     public void RestaurarVida(int heal)
     {
-        _puntosVidaActuales = _puntosVidaActuales + _restaurarVida;
+        _puntosVidaActuales += heal;
 
+        if (_puntosVidaActuales > 100)
+        {
+            _puntosVidaActuales = 100;
+        }
     }
 
     private void Update()
@@ -49,8 +53,16 @@ public class PlayerStats : MonoBehaviour
         }
 
         if (_puntosVidaActuales <= 0)
+{
+    FindFirstObjectByType<GameManager>().MostrarPerdiste();
+}
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name == "Bandera")
         {
-            Destroy(this.gameObject);
+            FindFirstObjectByType<GameManager>().MostrarGanaste();
         }
     }
 }

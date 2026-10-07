@@ -3,15 +3,19 @@ using UnityEngine;
 public class TrampaMortal : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
-
-    [SerializeField] public UIManager _uiManager;
+    [SerializeField] private int cantidadDaño = 10;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("El jugador ha recibido daño");
-            _playerStats.RestarVida(10);
-            _uiManager.RestarFillAmount(0.1f);
+            _playerStats.RestarVida(cantidadDaño);
+
+            if (_playerStats._uiManager != null)
+            {
+                _playerStats._uiManager.SetFillAmount(
+                    _playerStats._puntosVidaActuales / 100f
+                );
+            }
         }
     }
 }

@@ -15,15 +15,46 @@ public class GameManager : MonoBehaviour
     
 
     public Timer timer;
+
+    public GameObject panelGanaste;
+    public GameObject panelPerdiste;
+
+    private static int resultado = 0;
     void Start()
     {
         RestaurarPosicionMario();
+
+        if (resultado == 1 && panelGanaste != null)
+        {
+            panelGanaste.SetActive(true);
+            resultado = 0;
+        }
+
+        if (resultado == 2 && panelPerdiste != null)
+        {
+            panelPerdiste.SetActive(true);
+            resultado = 0;
+        }
     }
 
     public void CargarEscena(int scene)
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(scene);
+    }
+
+    public void MostrarGanaste()
+    {
+        resultado = 1;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menus");
+    }
+
+    public void MostrarPerdiste()
+    {
+        resultado = 2;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menus");
     }
 
     public void SalirDelJuego()
